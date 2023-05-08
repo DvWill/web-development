@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css-login.css">
+    <title>Login</title>
+</head>
+<body>
+<div class="img">
+    <img src="img/5.png" width="580" height="310">
+</div>
+
+<div class="login-container">
+    <form action="#">
+        <input type="checkbox" class="input-check" id="input-check">
+        <label for="input-check" class="toggle">
+            <span class="text off">Off</span>
+            <span class="text on">On</span>
+        </label>
+
+
+        <div class="login-light"></div>
+        <h2>Login</h2>
+        <div class="input-box">
+            <input type="email" id="email" required="required">
+            <label>Email</label>
+            <div class="input-line"></div>
+        </div>
+
+        <div class="input-box">
+            <input type="password" id="senha" required="required">
+            <label>Senha</label>
+            <div class="input-line"></div>
+
+        </div>
+
+        <div class="remember-forgot">
+            <label>
+                <input type="checkbox">
+                Manter login
+            </label>
+            <a href="">Esqueceu a senha?</a>
+        </div>
+
+        <button class="confirmar" onclick="autenticar()">Login</button>
+        <div class="register-link">
+            <p>Nao tem uma conta ainda? <a href="/">Registra-se</a></p>
+        </div>
+    </form>
+</div>
+</body>
+</html>

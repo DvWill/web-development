@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/css-cadastro.css">
+  <script src="/js/js-cadastro.js"></script>
+  <title>Cadastro</title>
+</head>
+<body>
+<img src="img/5.png" width="580" height="310" >
+
+
+<div class="login-container">
+  <form action="#">
+    <input type="checkbox" class="input-check" id="input-check">
+    <label for="input-check" class="toggle">
+      <span class="text off">Off</span>
+      <span class="text on">On</span>
+    </label>
+    <!__________________________________________________________________________________>
+
+    <div class="login-light"></div>
+    <h2>Cadastro</h2>
+    <div class="input-box">
+      <input type="text" id="nameUsuario">
+      <label>Qual é o seu nome </label>
+      <div class="input-line"></div>
+    </div>
+    <!__________________________________________________________________________________>
+
+    <div class="input-box">
+      <input type="email" id="emailUsuario" >
+      <label>Confirme seu Email</label>
+      <div class="input-line"></div>
+    </div>
+    <!__________________________________________________________________________________>
+    <div class="input-box">
+      <input type="password" id="senhaUsuario">
+      <label>Crie uma Senha</label>
+      <div class="input-line"></div>
+
+    </div>
+    <!__________________________________________________________________________________>
+    <div class="input-box">
+      <input type="text" id="adm" required="required">
+      <label>Qual o seu cargo</label>
+      <div class="input-line"></div>
+    </div>
+    <!__________________________________________________________________________________>
+    <div class="remember-forgot">
+      <label>
+        <input type="checkbox">
+        Manter Login
+      </label>
+      <a>Esqueceu a senha?</a>
+    </div>
+    <!__________________________________________________________________________________>
+    <button class=confirmar" onclick="cadastrar()">Inscrever-se</button>
+    <div class="register-link">
+      <p>Ja possui uma conta? <a href="">Faça o Login</a></p>
+    </div>
+    <!__________________________________________________________________________________>
+  </form>
+</div>
+</body>
+</html>
